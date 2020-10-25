@@ -1,0 +1,49 @@
+<app-admin-afterlogin></app-admin-afterlogin>
+<div class="card mt-5 bg-light">
+<div class="d-flex flex-column">
+<div class="container">
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <div class="tab d-flex flex-column justify-content-center" style="height: 300px;">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="box mt-5">
+                 <form [formGroup]= "serviceForm" class="form-group">
+                   <div class="inputBox">
+                     <label for="">Title</label>
+                     <input type="text" formControlName="title" placeholder="Title">
+                   </div>
+ 
+                 
+ 
+                 
+                   <div class="inputBox">
+                       <label for="">Your Content</label>
+                    <textarea  rows="4" id="comment" formControlName="comment" placeholder="Enter Your Content"></textarea>
+                   </div>
+
+                   <div class="text-center mt-2">
+                   <label class="btn btn-primary w-50">
+                    <i class="fa fa-cloud-upload mt-2" aria-hidden="true" style="font-size: 28px;"></i>
+                 Choose File<input type="file" class="uploadFile img" value="Upload Photo" (change)=" uploadImage($event)" style="width: 0px;height: 0px;overflow: hidden;">
+       
+                </label>
+                </div>
+                <div class="text-center" *ngFor="let obj of displayArr;index as i ">
+                  <div class="name">{{obj}}</div>
+                 
+              </div> 
+                   <div class="text-center mt-2">
+                  <button type="button" (click)= "OnUpload()" class="btn btn-light w-50"> <img class="img-fluid" src="../../assets/images/telegram.png" alt="" style="height: 28px; width: 28px;">Post</button>
+ 
+                   </div>
+                 </form>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+</div>

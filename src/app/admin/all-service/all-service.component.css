@@ -1,0 +1,90 @@
+.card{
+    height: 600px;
+}
+.box {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    padding: 40px;
+    background: rgba(0,0,0,.4);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.3);
+    border-radius: 10px;
+}
+
+.box .inputBox input{
+width: 100%;
+padding: 10px 0;
+font-size: 20px;
+color: #FFF;
+letter-spacing: 1px;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #FFF;
+outline: none;
+background: transparent;
+}
+
+#comment{
+width: 100%;
+padding: 10px 0;
+font-size: 20px;
+color: #FFF;
+letter-spacing: 1px;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #FFF;
+outline: none;
+background: transparent;  
+}
+
+.box .inputBox label {
+display: none;
+}
+
+
+
+::-webkit-input-placeholder { /* Edge */
+color: rgb(228, 224, 224);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: rgb(236, 231, 231)(214, 213, 213);
+
+
+}
+
+::placeholder {
+font-size: 20px;
+color: #FFF;
+
+
+
+/* text-align: center; */
+}
+
+.btn-light,.btn-primary{
+  height: 70px;
+  color: black;
+  font-size: 20px;
+  font-weight: 650;
+  text-transform: capitalize;
+  border-radius: 50px;
+
+
+}
+
+.btn-light:hover{
+  background-color: #1bb1dc;
+  color: blanchedalmond;
+  transition: 0.5s;
+}
+
+
+.container{
+    width: 90%;
+}
+
+

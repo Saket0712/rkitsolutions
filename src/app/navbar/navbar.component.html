@@ -1,0 +1,72 @@
+<!-- <div class="container-fluid">
+    <div class="row">
+        <mat-toolbar color="white" style="height: 150px;">
+           <div class="logo">
+            <a href="#"><img class="img-fluid" src="../../assets/images/logo_transparent.png" alt=""></a>
+           </div>
+            <div class="spacer"></div>
+            <a href="" mat-button style="border-color: none;">Home</a>
+            <a href="" mat-button>About</a>
+            
+            <a #clickMe mat-button [matMenuTriggerFor]="menu" >Services</a>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item></button>
+                <button mat-menu-item></button>
+                <button mat-menu-item> </button>
+                <button mat-menu-item> </button>
+                <button mat-menu-item></button>
+                <button mat-menu-item></button>
+                <button mat-menu-item></button>
+                <button mat-menu-item></button> 
+                <button mat-menu-item> </button>
+                <button mat-menu-item> </button>
+            
+              </mat-menu>
+            <a href="" mat-button>Contact Us</a>
+          </mat-toolbar>
+    </div>
+</div> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href=""><img src="../../assets/images/logo_transparent.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto pr-5">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" routerLinkActive="linkActive">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" routerLinkActive="linkActive">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Laptop & Desktop (Sales & Service)</a>
+          <a class="dropdown-item" href="#">Network Design & Maintenance </a>
+          <a class="dropdown-item" href="#">Remote Support</a>
+          <a class="dropdown-item" href="#">Hardware & Software Purchasing </a>
+          <a class="dropdown-item" href="#">Hardware & Networking Solutions  </a>
+          <a class="dropdown-item" href="#">Printer Repairing/Sales/Toner Refilling </a>
+          <a class="dropdown-item" href="#">EPBX & Biomatric (Sales & Service) </a>
+          <a class="dropdown-item" href="#">Wifi Devices</a>
+          <a class="dropdown-item" href="#">Virus Malware Protection </a>
+          <a class="dropdown-item" href="#">CCTV Installation & Maintenance</a>
+          
+         
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about" routerLinkActive="linkActive">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact" routerLinkActive="linkActive">Contact Us</a>
+      </li>
+
+    
+    </ul>
+ 
+  </div>
+</nav>

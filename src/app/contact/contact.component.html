@@ -1,0 +1,55 @@
+<section class="contact">
+    <h3 class="text-center">Query</h3>
+    <hr>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12"></div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+               <div class="box mt-5">
+                <form [formGroup]= "contactForm" class="form-group">
+                  <div class="inputBox">
+                    <label for="">Full Name</label>
+                    
+
+                    <input formControlName="name" type="text" placeholder="Full Name"  [ngClass]="{'is-invalid': contactForm.get('name').touched && contactForm.get('name').invalid}">
+                 
+                    <span class="invalid-feedback text-right" style="color: white;">Name is <strong>Required**</strong></span>
+                 
+                  </div>
+
+                  <div class="inputBox">
+                    <label for="">Email</label>
+                    <input formControlName="email" type="text" placeholder="Your email" [ngClass]="{'is-invalid': contactForm.get('email').touched && contactForm.get('email').invalid}">
+                    <span class="invalid-feedback text-right" style="color: white;">email is <strong>Required**</strong></span>
+                  
+                  </div>
+
+                  <div class="inputBox">
+                    <label for="">Phone</label>
+                    <input formControlName="phone" type="text" placeholder="Your contact number" [ngClass]="{'is-invalid': contactForm.get('phone').touched && contactForm.get('phone').invalid}">
+                    <span class="invalid-feedback text-right" style="color: white;">Phone is <strong>Required**</strong></span>
+                  
+                  </div>
+
+                  <div class="inputBox">
+                      <label for="">Your Query</label>
+                   
+                      <textarea formControlName="query"  rows="4" id="comment" placeholder="Enter Your Query" [ngClass]="{'is-invalid': contactForm.get('query').touched && contactForm.get('query').invalid}"></textarea>
+                      <span class="invalid-feedback text-right" style="color: white;">Query is <strong>Required**</strong></span>
+                    
+                    </div>
+                  <div class="text-center">
+                 <button type="button" [disabled]="!contactForm.valid" (click)="Addcontact()" class="btn btn-light w-50"> <img class="img-fluid" src="../../assets/images/telegram.png" alt="" style="height: 28px; width: 28px;"> Send</button>
+
+                  </div>
+                </form>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12"></div>
+
+
+        </div>
+    </div>
+
+</section>

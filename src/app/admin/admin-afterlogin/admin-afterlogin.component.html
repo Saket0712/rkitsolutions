@@ -1,0 +1,76 @@
+
+<!-- START nav updated by Saket-->
+<nav class="bg-light" style="width: 100%;">
+
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" -->
+    <!--     aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"> -->
+    <!--     <span class="navbar-toggler-icon"></span> -->
+    <!-- </button> -->
+
+    <div class="d-flex justify-content-around" id="navbarTogglerDemo01" style="width: 100%;">
+
+        <div class="col align-items-center hamburgerToggle">
+            <i class="fa fa-bars" style="font-size: 38px;" aria-hidden="true" (click)="toggleSideBar()"></i>
+        </div>
+
+
+        <div class="col mr-auto d-flex logoPosition">
+            <span class="navbar-brand">
+                <img id="logo" src="../../../assets/images/logo_transparent.png" width="100" height="80"
+                    class="d-inline-block align-top" alt="" loading="lazy">
+            </span>
+        </div>
+
+
+        <div class="col profileImageContainer justify-content-end d-flex align-items-center">
+            <!-- <img [src]="tutorObj.profilePicLink" *ngIf="tutorObj" class="profileImage" alt=""> -->
+            <!-- <i class="fa fa-power-off" style="font-size:42px;color:rgb(5, 5, 5)"></i> -->
+            <!-- <i class="fa fa-gear fa-spin" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="font-size:24px"></i> -->
+            <!-- <div class="profileDropdown">
+                <p data-toggle="modal" data-target="#changePasswordModal">Change Password</p>
+                <p data-toggle="modal" data-target="#closeAccountModal">Disable Account</p>
+             
+                <p data-toggle="modal" data-target="#logoutModal">Logout</p>
+            </div> -->
+
+            <div class="dropdown show mr-3 pr-5">
+                <i class="fa fa-gear fa-spin" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="font-size:24px">
+                   
+                </i>
+
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="margin-right: 95px;">
+                  <a class="dropdown-item" data-toggle="modal" data-target="#changePasswordModal">Change Password</a>
+                  <a class="dropdown-item" style="cursor: pointer;" (click)="logout()">Logout</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</nav>
+
+<!-- side menu -->
+
+<!-- Section Renew -->
+
+<div class="container-fluit Main col-lg-3  mt-5" [class.sideBarShow]="sideBarToggleBool">
+
+
+    <div class="LeftNavigation col-lg-11 col-md-12 col-sm-12 background-white">
+        <div [style.overflow]="'auto'" [style.height.px]="'280'">
+            <ul class="navbar-nav mx-auto mt-5 mt-lg-4">
+                <li class="nav-item ">
+                    <a class="nav-link " href="#" routerLinkActive="active" routerLink="/adminDashboard">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" routerLinkActive="active" routerLink="/allService">Add Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" routerLinkActive="active" routerLink="/ViewService">View Services</a>
+                </li>
+          
+            </ul>
+        </div>
+    </div>
+</div>
+

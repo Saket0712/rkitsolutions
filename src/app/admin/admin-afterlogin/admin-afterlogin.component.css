@@ -1,0 +1,181 @@
+.modal-header {
+    background-color: #1bb1dc;
+    color: white;
+}
+.modal-title {
+    text-align: center !important;
+    font-size: 25px;
+}
+.btnFind {
+    color: white !important;
+    background-color: #1bb1dc !important;
+}
+
+.profileImageContainer {
+    position: relative;
+}
+
+
+
+
+
+.active {
+    color: #1bb1dc !important;
+    font-weight: 400;
+    border-bottom: 2px solid #1bb1dc;
+}
+@media only screen and (max-width: 600px) {
+    .profileDropdown {
+        width: 90vw;
+        /* left: 5vw; */
+        /* right: 5vw; */
+    }
+}
+
+/* Renew Bhanu Code  */
+
+
+/* CSS Renew */
+
+.Main{
+    margin-top: 0%;
+    float: left;
+}
+.First{
+    border: 0.1px solid gray;
+    margin-left: 1%;
+    border-radius: 5px;
+    margin-top:2%;
+}
+
+.IconMain{
+    margin-bottom: 1%;
+}
+
+.IconDiv{
+    float: left;
+}
+
+.fas{
+    cursor: pointer;
+}
+
+
+/* .ProfileImage{
+    width: %;
+    height: 20%;
+    margin-left: 5%;
+} */
+
+.LeftNavigation{
+    border: 0.2px solid rgb(128, 128, 128);
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.LeftNavigation,.navLink{
+    text-align: center;  
+    font-size: 1.3em;
+
+    padding: 1%;
+   
+}
+
+
+
+.NavList{
+    padding: 1%;
+}
+
+.navLink:hover{
+    background-color: #B4B4B4;
+    color: #0fc7e7;
+    padding: 1%;
+    border-radius: 2%;
+    font-weight: var(--primary);
+}
+
+@media screen and (min-width: 601) {
+    .ProfileImage {
+        width: 80%;
+    height: 20%;
+    }
+  }
+
+  @media screen and (max-width: 600) {
+    .ProfileImage {
+        width: 400%;
+    height: 20%;
+    margin-left: 5%;
+    }
+  }
+
+
+
+  .second{
+      margin-top: 5%;
+      /* margin-left: 2%; */
+  }
+
+  /* @media screen and (min-width: 601) {
+    .second {
+        margin-top: -18%;
+      margin-left: 2%;
+    }
+  }
+
+  @media screen and (max-width: 600) {
+    .second{
+        margin-top: 0%;
+      margin-left: 2%;
+    }
+  } */
+
+
+
+
+ /* hamburger toggle */
+
+.hamburgerToggle {
+    display: none;
+}
+
+.logoPosition {
+    justify-content: start;
+}
+
+.background-white{
+    background-color: white;
+}
+
+@media (max-width: 991.98px) {
+    .Main {
+        background-color: #f1f2f5 !important;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+        width: 100vw;
+        max-width: 100%;
+        z-index: 999;
+        float: unset;
+        position: absolute;
+        visibility: hidden;
+
+    }
+    .hamburgerToggle {
+        display: flex ;
+    }
+    .logoPosition {
+        justify-content: center;
+    }
+    .sideBarShow {
+        visibility: visible ;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,181 @@
+.contact{
+    background: url(../../assets/images/contvat1.jpg) no-repeat;
+    margin: 0;
+    padding: 90px;
+    height: 835px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+   
+}
+
+span{
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 60px;
+    }
+
+    hr{
+        width:100px;
+        height: 2px;
+        margin: auto;
+        background-color: #ff4e00;
+        margin-top: -10px;
+      }
+
+      /* .transparent-style{
+
+        background-color: #ffffff;
+        opacity: .4;
+    
+    } */
+
+    .box {
+        position: absolute;
+        top: 290px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        padding: 40px;
+        background: rgba(0,0,0,.4);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.3);
+        border-radius: 10px;
+    }
+
+.box .inputBox input{
+	width: 100%;
+	padding: 10px 0;
+    font-size: 20px;
+	color: #FFF;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #FFF;
+	outline: none;
+	background: transparent;
+}
+
+#comment{
+    width: 100%;
+	padding: 10px 0;
+    font-size: 20px;
+	color: #FFF;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #FFF;
+	outline: none;
+	background: transparent;  
+}
+
+.box .inputBox label {
+display: none;
+}
+
+
+
+::-webkit-input-placeholder { /* Edge */
+    color: rgb(228, 224, 224);
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(236, 231, 231)(214, 213, 213);
+
+
+  }
+  
+  ::placeholder {
+    font-size: 20px;
+    color: #FFF;
+    
+    
+
+    /* text-align: center; */
+  }
+
+  .btn-light{
+      height: 70px;
+      color: black;
+      font-size: 20px;
+      font-weight: 650;
+      text-transform: capitalize;
+      border-radius: 50px;
+  
+   
+  }
+
+  .btn-light:hover{
+      background-color: #1bb1dc;
+      color: blanchedalmond;
+      transition: 0.5s;
+  }
+
+  @media(max-width: 478px){
+    .box {
+        position: absolute;
+        top: 290px;
+        left: 52%;
+        transform: translate(-50%,-50%);
+        width: 280px;
+        padding: 40px;
+        background: rgba(0,0,0,.4);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.3);
+        border-radius: 10px;
+    }
+
+.box .inputBox input{
+	width: 100%;
+	padding: 10px 0;
+    font-size: 20px;
+	color: #FFF;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #FFF;
+	outline: none;
+	background: transparent;
+}
+
+#comment{
+    width: 100%;
+	padding: 10px 0;
+    font-size: 20px;
+	color: #FFF;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #FFF;
+	outline: none;
+	background: transparent;  
+}
+
+      h3 {
+        font-size: 40px;
+        text-transform: capitalize;
+        font-weight: 700;
+        line-height: 60px;
+        }
+
+        .btn-light{
+            height: 70px;
+            width: 200px;
+            color: black;
+            font-size: 20px;
+            font-weight: 650;
+            text-transform: capitalize;
+            border-radius: 20px;
+        
+         
+        }
+  }
+
+

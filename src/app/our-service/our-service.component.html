@@ -1,0 +1,81 @@
+<!-- <div class="container">
+    <div class="row justify-content-center">
+            <h1>WHAT WE DO OFFER</h1>
+            
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-3">
+            <div class="card">
+                <img src="../../assets/images/computer-1245714_1920.jpg" alt="Denim Jeans" style="width:100%">
+                <h1>Tailored Jeans</h1>
+                <p class="price">$19.99</p>
+                <p>Some text about the jeans..</p>
+                <p><button>Add to Cart</button></p>
+              </div>
+        </div>
+        
+        <div class="col-lg-3">
+            <div class="card">
+                <img src="../../assets/images/cyberspace-2784907_1920.jpg" alt="Denim Jeans" style="width:100%">
+                <h1>Tailored Jeans</h1>
+                <p class="price">$19.99</p>
+                <p>Some text about the jeans..</p>
+                <p><button>Add to Cart</button></p>
+              </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="card">
+                <img src="../../assets/images/print-2797178_1920.jpg" alt="Denim Jeans" style="width:100%">
+                <h1>Tailored Jeans</h1>
+                <p class="price">$19.99</p>
+                <p>Some text about the jeans..</p>
+                <p><button>Add to Cart</button></p>
+              </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="card">
+                <img src="../../assets/images/computer-1245714_1920.jpg" alt="Denim Jeans" style="width:100%">
+                <h1>Tailored Jeans</h1>
+                <p class="price">$19.99</p>
+                <p>Some text about the jeans..</p>
+                <p><button>Add to Cart</button></p>
+              </div>
+        </div>
+    </div>
+  
+        
+   
+</div> -->
+
+<section class="pt-2" class="service">
+   <h3 class="text-center">Our Services</h3>
+   <hr>
+
+    
+<div class="container">
+    <div class="card" *ngFor="let obj of  serviceArr; index as i">
+        <div class="imgBx img-fliud">
+            <img src="{{obj.imageArr}}" alt="">
+        </div>
+        <div class="content">
+            <h2>{{obj.title}}</h2><br>
+            <p class="text-truncate">
+                {{obj.comment}}
+            </p>
+            <div class="text-center">
+               <button class="btn btn-primary" (click)="setModalId(obj._id)">Load More</button>
+            </div> 
+       
+        </div>
+               
+    </div>
+
+
+</div>
+
+   
+</section>
+

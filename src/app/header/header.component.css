@@ -1,0 +1,237 @@
+.w3l-banner-slider-main .carousel-item {
+    background: url(../../assets/images/computer-1245714_1920.jpg) no-repeat;
+    height: 100vh  !important;
+
+    background-size: 50%;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    opacity: 0.9;
+  
+  
+  }
+  
+  .w3l-banner-slider-main .carousel-item.item2 {
+    background: url(../../assets/images/network.jpg) no-repeat;
+  
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+  }
+  
+  .w3l-banner-slider-main .carousel-item.item3 {
+    background: url(../../assets/images/print.jpg) no-repeat;
+    
+  
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+  }
+  
+  .w3l-banner-slider-main .carousel-item.item4 {
+    background: url(../../assets/images/b.jpg) no-repeat;
+  
+  
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+  }
+  
+  .w3l-banner-slider-main .carousel-item.item5 {
+   background: url(../../assets/images/macintosh-4556368_1920.jpg) no-repeat;
+  
+  
+   background-size: cover;
+   -webkit-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+   -moz-background-size: cover;
+  }
+  
+  .w3l-banner-slider-main .carousel-item.item6 {
+   background: url(../../assets/images/apple.jpg) no-repeat;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+   -moz-background-size: cover;
+  }
+  
+  /* .w3l-banner-slider-main .carousel-item.item7 {
+   background: url(../../assets/images/computer-1245714_1920.jpg) no-repeat;
+  
+  
+   background-size: cover;
+   -webkit-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+   -moz-background-size: cover;
+  }
+  
+  .w3l-banner-slider-main .carousel-item.item8 {
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url(../../assets/images/computer-1245714_1920.jpg) no-repeat;  
+   background-size: cover;
+   -webkit-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+   -moz-background-size: cover;
+  } */
+  
+  .w3l-banner-slider-main .carousel-item:before {
+    content: "";
+    background: rgba(16, 16, 16, 0.470588);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+
+  
+  .w3l-banner-slider-main .carousel-caption h3 {
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 70px;
+  }
+  
+  .w3l-banner-slider-main .carousel-caption p {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .w3l-banner-slider-main .button-4 {
+    width: 160px;
+    height: 50px;
+    border: 2px solid #fff;
+    /* float: left; */
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 40px 0 0 0;
+    border-radius: 6px;
+  }
+  
+  .w3l-banner-slider-main .button-4 a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+    transition: all .5s ease;
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    display: inline;
+  }
+  
+  .w3l-banner-slider-main .eff-4 {
+    width: 160px;
+    height: 50px;
+    left: -160px;
+    background: #fff;
+    position: absolute;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+  }
+  
+  .w3l-banner-slider-main .button-4:hover .eff-4 {
+    left: 0;
+  }
+  
+  .w3l-banner-slider-main .button-4:hover a {
+   color :#ff4e00;
+  
+  }
+  
+  .w3l-banner-slider-main .carousel-indicators {
+    bottom: 7%;
+    left: 0%;
+    cursor: pointer;
+  }
+  
+  .w3l-banner-slider-main .carousel-caption {
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    right: 15%;
+    bottom: 22%;
+    left: 15%;
+    z-index: 9;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+  
+  .w3l-banner-slider-main .carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 44em;
+  }
+  
+  .w3l-banner-slider-main .carousel-control {
+    line-height: 44em;
+  }
+  
+  .w3l-banner-slider-main .carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 12px;
+    margin: 0 4px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    opacity: 1;
+    transition: opacity 0.6s ease;
+    border: none;
+    border-radius: 50%;
+  }
+  
+  .w3l-banner-slider-main .carousel-indicators .active {
+   background-color :#ff4e00;
+   background-image :linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  }
+  
+  .w3l-banner-slider-main .carousel-control-prev, .w3l-banner-slider-main .carousel-control-next {
+    background: none;
+    position: absolute;
+    top: 42%;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+    height: 50px;
+    width: 60px;
+    padding: -10px;
+    opacity: 1;
+    display: none;
+  }
+@media(max-width: 512px){
+  .w3l-banner-slider-main .carousel-caption h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  
+}

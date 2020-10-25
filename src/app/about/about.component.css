@@ -1,0 +1,48 @@
+.about{
+    background-color: rgb(230, 232, 211);
+    margin: 0;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+}
+
+h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+hr{
+    width:100px;
+    height: 2px;
+    margin: auto;
+    background-color: #ff4e00;
+    margin-top: -10px;
+}
+
+.title img{
+
+    height: 100px;
+    width: 100px;
+}
+
+.title {
+    border: 2px solid black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+    background: linear-gradient(to bottom, #ccccff 28%, #ffffff 100%);
+
+}
+
+p{
+    font-family: 'Chilanka', cursive;
+}
+
+
+    

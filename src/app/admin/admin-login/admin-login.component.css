@@ -1,0 +1,24 @@
+.card {
+    background-color:  #1bb1dc; 
+    margin-top: 150px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 60px;
+    }
+
+input{
+    margin-top: 10px;
+}
+
+.btn-light{
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+

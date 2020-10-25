@@ -1,0 +1,40 @@
+
+.more{
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: indianred;  */
+
+}
+/* .container-fluid{
+  margin-top: 100px;
+} */
+   
+  h3 {
+    font-size: 29px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 60px;
+    }
+  
+  
+  
+  hr{
+    width:100px;
+    height: 2px;
+    margin: auto;
+    background-color: #ff4e00;
+    margin-top: -10px;
+  }
+
+  p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 17px;
+  }
+
+  
+ 
