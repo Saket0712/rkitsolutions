@@ -6,12 +6,16 @@ import { HttpClient } from '@angular/common/http'
 })
 export class AdminLoginService {
 
-  url="https://backend-rkit.herokuapp.com/"
+  url="https://backend-rkit.herokuapp.com"
 
   constructor(private http:HttpClient) { }
 
   async Login(formData){
     return this.http.post(`${this.url}/admin/Login`, formData).toPromise();
+  }
+
+  async Registration(formData){
+  return this.http.post(`${this.url}/admin/Signup`, formData).toPromise();
   }
 
   async Onupload(formData){

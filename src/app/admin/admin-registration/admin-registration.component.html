@@ -5,15 +5,15 @@
                 <div class="card-title">
                     <h3 class="text-center">Admin Registration</h3>
                 </div>
-                <form action="" class="form-group">
+                <form [formGroup]="registForm" class="form-group">
                    
-                    <input type="text" class="form-control" placeholder="Enter Your name">
-                    <input type="text" class="form-control" placeholder="Enter Your email">
-                    <input type="text" class="form-control" placeholder="Enter Your password">
-                    <input type="text" class="form-control" placeholder="Enter Your Ph.number">
+                    <input type="text" class="form-control" formControlName= "name" placeholder="Enter Your name">
+                    <input type="text" class="form-control" formControlName= "email" placeholder="Enter Your email">
+                    <input type="text" class="form-control" formControlName= "password" placeholder="Enter Your password">
+                    <input type="text" class="form-control" formControlName= "phone" placeholder="Enter Your Ph.number">
                    
                     <div class="text-center mt-3">
-                        <button class="btn btn-light">Signup</button> 
+                        <button class="btn btn-light" (click)="Registration()">Signup</button> 
                     </div>
                
                 </form>

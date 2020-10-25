@@ -28,7 +28,7 @@ ngOnInit(): void {
 
 
   });
-  console.log(this.serviceId)
+  // console.log(this.serviceId)
 
   this.getSpecific()
 
@@ -38,7 +38,7 @@ ngOnInit(): void {
     const res:any = await this.login.getSpecific(this.serviceId)
     if(res.success){
       this.allData = res.data
-      console.log(this.allData)
+      // console.log(this.allData)
     }
     else{
       alert(res.message)
